@@ -28,7 +28,7 @@
  * ko-bp($foo) - uses a Sass variable
  */
 @function ko-bp($val) {
-	@return getValue($val, $breakpoints);
+	@return ko-getValue($val, $breakpoints);
 }
 
 
@@ -43,5 +43,5 @@
  * ko-type($foo) - uses a Sass variable
  */
 @function ko-type($val) {
-	@return getValue($val, $type);
+	@return ko-getValue($val, $type);
 }
